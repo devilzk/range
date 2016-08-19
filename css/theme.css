@@ -907,13 +907,13 @@ footer a:hover {
 }
 
 .col-md-8.push-md-2.col-sm-10.push-sm-1 > .row {
-background: #171b27; /* fallback for old browsers */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#151d24), to(transparent));
-  background: -webkit-linear-gradient(top, #151d24, transparent);
-  background: -moz-linear-gradient(top, #151d24, transparent);
-  background: -ms-linear-gradient(top, #151d24, transparent);
-  background: -o-linear-gradient(top, #151d24, transparent);
-  background: linear-gradient(top, #151d24, transparent);
+	background: #171b27; /* fallback for old browsers */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#151d24), to(transparent));
+	background: -webkit-linear-gradient(top, #151d24, transparent);
+	background: -moz-linear-gradient(top, #151d24, transparent);
+	background: -ms-linear-gradient(top, #151d24, transparent);
+	background: -o-linear-gradient(top, #151d24, transparent);
+	background: linear-gradient(top, #151d24, transparent);
 }
 
 .post-template .author-location,
@@ -932,7 +932,11 @@ background: #171b27; /* fallback for old browsers */
 .post-template .share-icon {
     font-size: 2rem;
     opacity: .25;
-	-webkit-filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -o-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -ms-filter: invert(100%);
+	-khtml-filter: invert(100%);
     filter: invert(100%);
 	border-bottom: none;
 }
