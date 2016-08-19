@@ -58,11 +58,12 @@ body > p > a:hover {
     outline-offset: 8px;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat","Nexa Bold","Helvetica Neue",Helvetica,sans-serif,Helvetica,sans-serif;
     margin: 3.125em 0 .625em;
     font-weight: 400;
     line-height: 140%;
+	color: #a8acb9;
 }
 
 h2 {

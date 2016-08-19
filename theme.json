@@ -1,7 +1,7 @@
 {
     "name": "Range Night",
     "description": "The default theme for Postleaf styled dark, inspired by Casper",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "requires": "1.0.0",
     "author": "Devilzk",
     "license": "GPLv3",
